@@ -40,6 +40,21 @@ import type {
 declare module 'vue-router/auto/routes' {
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
+    '/articles': RouteRecordInfo<'/articles', '/articles', Record<never, never>, Record<never, never>>,
+    '/articles/[id]': RouteRecordInfo<'/articles/[id]', '/articles/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
+    '/articles/edit/[id]': RouteRecordInfo<'/articles/edit/[id]', '/articles/edit/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
+    '/articles/list': RouteRecordInfo<'/articles/list', '/articles/list', Record<never, never>, Record<never, never>>,
+    '/articles/new': RouteRecordInfo<'/articles/new', '/articles/new', Record<never, never>, Record<never, never>>,
+    '/diet-diarys': RouteRecordInfo<'/diet-diarys', '/diet-diarys', Record<never, never>, Record<never, never>>,
+    '/diet-diarys/[id]': RouteRecordInfo<'/diet-diarys/[id]', '/diet-diarys/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
+    '/diet-diarys/edit/[id]': RouteRecordInfo<'/diet-diarys/edit/[id]', '/diet-diarys/edit/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
+    '/diet-diarys/list': RouteRecordInfo<'/diet-diarys/list', '/diet-diarys/list', Record<never, never>, Record<never, never>>,
+    '/diet-diarys/new': RouteRecordInfo<'/diet-diarys/new', '/diet-diarys/new', Record<never, never>, Record<never, never>>,
+    '/login': RouteRecordInfo<'/login', '/login', Record<never, never>, Record<never, never>>,
+    '/register': RouteRecordInfo<'/register', '/register', Record<never, never>, Record<never, never>>,
+    '/user': RouteRecordInfo<'/user', '/user', Record<never, never>, Record<never, never>>,
+    '/user/[id]': RouteRecordInfo<'/user/[id]', '/user/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
+    '/user/info': RouteRecordInfo<'/user/info', '/user/info', Record<never, never>, Record<never, never>>,
   }
 }
 

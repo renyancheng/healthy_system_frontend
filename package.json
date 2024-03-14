@@ -9,10 +9,24 @@
   },
   "dependencies": {
     "@mdi/font": "7.0.96",
+    "axios": "^1.6.7",
     "core-js": "^3.34.0",
+    "dayjs": "^1.11.10",
+    "dom-to-image": "^2.6.0",
+    "markdown-it": "^14.0.0",
+    "markdown-it-abbr": "^2.0.0",
+    "markdown-it-anchor": "^8.6.7",
+    "markdown-it-highlightjs": "^4.0.1",
+    "markdown-it-task-lists": "^2.1.1",
+    "md-editor-v3": "^4.12.1",
+    "pinia-plugin-persistedstate": "^3.2.1",
     "roboto-fontface": "*",
+    "vee-validate": "^4.12.6",
     "vue": "^3.3.0",
-    "vuetify": "^3.0.0"
+    "vue-hooks-plus": "^1.8.9",
+    "vuetify": "^3.5.8",
+    "vuetify3-dialog": "^1.4.5",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.0",
